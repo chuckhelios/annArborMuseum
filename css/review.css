@@ -1,0 +1,42 @@
+
+#review-sec{
+	height: 50%;
+	border: 1px solid black;
+}
+
+#create-review-div{
+	height: 10em;
+	border: 1px solid black;
+}
+
+#others-review-div{
+	height: 30em;
+	border: 1px solid black;
+}
+
+#museum-photo{
+	border: 1px solid black;
+	height: 50%;
+}
+
+#write-review-div{
+	border: 1px solid black;
+	height: 50%;
+}
+
+#others-review-div .review-col{
+	border: 1px solid black;
+	height: 6em;	
+}
+
+#others-review-div .review-col .rev-name{
+	border: 1px solid black;
+
+}
+
+#others-review-div .review-col .rev-photo{
+		border: 1px solid black;
+}
+#others-review-div .review-col .review-content{
+	border: 1px solid black;
+}

@@ -1,0 +1,115 @@
+nav{
+	border-color: #383836;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: #202020;
+}
+
+.page-scroll:hover{
+	color: #66bcec;
+}
+
+.log-div{
+	float: left;
+}
+
+#logo-text{
+	text-align: left;
+	vertical-align: center;
+	font-family: 'Rock Salt', cursive;	
+	border-left: 1px solid #686868;
+	margin-left: 2em;
+	font-size: 1.4em;
+	letter-spacing: 4px;
+	color: #edf8fe;
+}
+
+
+#logo-img{
+	width: 6.2em;
+	height: 4.6em;
+	margin-top: -1.7em;
+	margin-left: -2.3em;
+	position: absolute;
+}
+
+
+/*.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+	color: #93d0f2;
+}*/
+
+
+.navbar-default .navbar-collapse {
+    border-color: #edf8fe;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #93d0f2;
+    background-color: #93d0f2;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #93d0f2;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #edf8fe;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #93d0f2;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #93d0f2;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #93d0f2;
+}
+
+.navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+}
+
+
+
+/*Footer CSS*/
+.footer-above{
+	background-color: #2b2b2b;
+	padding-top: 1.8em;
+	padding-bottom: 1.8em;
+	text-align: center;
+	vertical-align: center;
+}
+
+.footer-below{
+	background-color:#1a1a1a; 
+	color: #7b7b7b;
+	vertical-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+
