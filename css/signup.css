@@ -1,0 +1,22 @@
+body {
+	background-color: #981A1A;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+}
+
+header {
+	background-image: url("../img/lsd.png");
+}
+
+.btn {
+	background-color: black;
+}
+
+.btn:hover {
+	background-color: yellow;
+	color: black;
+}
+
+input:focus {
+	background-color: yellow;
+}
