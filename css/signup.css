@@ -20,3 +20,7 @@ header {
 input:focus {
 	background-color: yellow;
 }
+
+legend{
+	margin: 2%;
+}
