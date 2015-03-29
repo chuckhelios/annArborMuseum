@@ -33,6 +33,7 @@
    <link rel="stylesheet" type="text/css" href="css/social-media.css">
    	<!--  -->
    	<link rel="stylesheet" type="text/css" href="css/signup.css">
+   	<link rel="stylesheet" type="text/css" href="css/signup2.css">
    	
 
  </head>
@@ -44,9 +45,9 @@
 			<!-- Brand -->
 			<div class="logo-div">
 				<a class="navbar-brand page-scroll" href="#page-top">
-					<img id="logo-img" src="" alt="logo"/>
+					<img id="logo-img" src="img/logo.png" alt="logo"/>
 				</a>
-				<a class="navbar-brand page-scroll" id="logo-text" href="#page-top">A2 Museum</a>
+				<a class="navbar-brand page-scroll" id="logo-text" href="#page-top">A2 Museums</a>
 			</div>
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header page-scoll">
@@ -88,7 +89,7 @@
 			<div class="row">
 				<div class="col-lg-12 intro-text">
 					<div class="intro-lead-in">
-						<h2>Sign Up Sheet</h2>
+						<h2>Sign Up Options</h2>
 					</div>
 
 				</div>
@@ -133,7 +134,7 @@
 				$stringToAdd="";										
 				foreach($_POST as $name => $value) {
 									
-					$msg .="$name : $value\n";							
+					$msg .="$name: $value\n";							
 					$stringToAdd.="$value,";							
 				}
 				$stringToAdd.="\n";
@@ -152,23 +153,23 @@
 
 				fclose($handle); 
 
-				$sendTo = "lday@umich.edu";								
-				$headers = "From:A2 Museum\r\n";
+				$sendTo = $_POST["email1"];								
+				$headers = "From: ". $_POST["name"] ."<".$_POST["email1"]. ">\r\n";
 				
-				mail($sendTo, 'Form Data', $msg, $headers);
+				mail($sendTo, 'A2 Museums Account Confirmation', $msg, $headers);
 
 				echo "<center>An email has been sent you to confirming your information.</br></br>";
 
 
 			}
 			else if(isset($_POST['news-name'])){
-				print 'work?';
+
 				$filename = "NewsletterInfo.csv";
 			    $Exists = (file_exists($filename));
 
 			 	$handle = fopen($filename, 'a');
 
-				$msg = "Thank you ". $_POST['news-name'] . " for submitting your information.\n You should start receiving newsletters in the next week.\n";	
+				$msg = "Thank you ". $_POST['news-name'] . " for submitting your information.\n You should start receiving newsletters in the next week.\n\n";	
 				$stringToAdd="";										
 
 				if (!$Exists){
@@ -195,7 +196,7 @@
         			}
        				 </style>';
 
-				print "</br><center><h4>Thank you, ". $_POST["news-name"] . " for signing up for our newsletter.</h4>\n";
+				print "</br><center><h4>Thank you, ". $_POST["news-name"] . " for signing up for our newsletter.</h4>\n\n";
 
 
 				fwrite($handle, $stringToAdd);
@@ -203,10 +204,10 @@
 
 				fclose($handle); 
 
-				$sendTo = "lday@umich.edu";								
-				$headers = "From: A2 Museum\r\n";
+				$sendTo = $_POST["news-email"];								
+				$headers = "From: ". $_POST["news-name"] ."<".$_POST["news-email"]. ">\r\n";
 				
-				mail($sendTo, 'Form Data', $msg, $headers);
+				mail($sendTo, 'A2 Museums Newsletter Confirmation', $msg, $headers);
 
 				echo "<center>An email has been sent you to confirm you will be receiving the newsletter.</br></br>";	
 			}
@@ -223,6 +224,7 @@
 			<!-- Sign Up div -->
 			<div class="col-md-6">
 				<form name="creatAccount" action="signup.php" method="POST" class="form-horizontal" onsubmit="return matchPassword();">
+					<fieldset>
 					<legend>Create an Account</legend>
 					<div class="col-md-12" id="mySignUp">
 						<div class="form-group">
@@ -279,6 +281,8 @@
 							</div>
 						</div>						
 					</div>
+
+					</fieldset>
 					
 				</form>	
 
@@ -291,6 +295,7 @@
 			<div class="col-md-6">
 
 				<form name= "receiveNewsletter" action="signup.php" method="POST" class="form-horizontal">
+					<fieldset>
 					
 					<legend>Newsletter Sign Up</legend>
 
@@ -315,7 +320,7 @@
 							</div>
 						</div>						
 					</div>
-					
+					</fieldset>
 
 					
 				</form>
