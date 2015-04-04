@@ -1,24 +1,11 @@
 
 header {
+	background-image: url("../img/artmuseum1.jpg");
+	color: #FFFFFF;
+	text-shadow: 2px 2px 8px #37373F;
+}
 
-		background-image: url("../img/artmuseum1.jpg");
-		color: #FFFFFF;
-		text-shadow: 2px 2px 8px #37373F;
-		padding-bottom: 9%;
-
-	}
-
-	h1.header_text{
-		font-size: 120%;
-	}
-
-	h2.header_text{
-		font-size: 170%;
-	}
-
-
-
-.review_row{
+.container{
 	display: block;
 	margin-bottom: 2%;
 	margin-top: 2%;
@@ -34,6 +21,7 @@ header {
 
 
 }
+
 
 
 .userid{
@@ -55,13 +43,6 @@ h3{
 	margin-top: 1%;
 }
 
-@media only screen and (min-width: 460px) {
-	h2.header_text{
-		font-size: 260%;
-	}
+.col-sm-8{
 
-	h1.header_text{
-		font-size: 200%;
-	}
-	
 }
