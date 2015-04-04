@@ -110,7 +110,7 @@ include 'php/header.php';
 					<h2>University of Michigan Museum of Art</h2>
 					<div class="links">
 						<a class="museumlink" href="http://www.umma.umich.edu">Museum Website</a> -
-						<a href="review.html" class="museumlink">3 Reviews</a>
+						<a href="review.php" class="museumlink">3 Reviews</a>
 					</div>
 					<p>Welcome to the University of Michigan Museum of Art (UMMA). One of the finest university art museums in the country, UMMA holds collections representing 150 years of art collecting at the University, while its dynamic schedule of special exhibitions and interpretative programs connects visitors with the rich artistic legacy of the past and today's avant-garde. In 2009, UMMA opened a landmark addition, named the Maxine and Stuart Frankel and the Frankel Family Wing for its lead benefactors, and a major restoration of its historic Beaux-Arts home, Alumni Memorial Hall. Thanks to this major transformation, UMMA not only more than doubled the space available for collections display, temporary exhibitions, programs and educational exploration, but also fulfilled the Museum’s mission to bridge visual art and contemporary culture, scholarship and accessibility, tradition and innovation. We look forward to your visit!</p>
 				</div>
