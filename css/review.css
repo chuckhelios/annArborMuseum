@@ -1,42 +1,50 @@
 
-#review-sec{
-	height: 50%;
-	border: 1px solid black;
+header {
+	background-image: url("../img/artmuseum1.jpg");
+	color: #FFFFFF;
+	text-shadow: 2px 2px 8px #37373F;
 }
 
-#create-review-div{
-	height: 10em;
-	border: 1px solid black;
+.container{
+	display: block;
+	margin-bottom: 2%;
+	margin-top: 2%;
 }
 
-#others-review-div{
-	height: 30em;
-	border: 1px solid black;
-}
+.thumbnail{
+	vertical-align: middle;
+	padding: 1%;
+	margin-top: 10%;
+	margin-bottom: 1%;
+	display: block;
+	height: auto;
 
-#museum-photo{
-	border: 1px solid black;
-	height: 50%;
-}
-
-#write-review-div{
-	border: 1px solid black;
-	height: 50%;
-}
-
-#others-review-div .review-col{
-	border: 1px solid black;
-	height: 6em;	
-}
-
-#others-review-div .review-col .rev-name{
-	border: 1px solid black;
 
 }
 
-#others-review-div .review-col .rev-photo{
-		border: 1px solid black;
+
+
+.userid{
+	margin-left:8%;
+	color: #9933FF;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 125%;
 }
-#others-review-div .review-col .review-content{
-	border: 1px solid black;
+
+h3{
+	margin-top: 2%;
+	padding: 1.5%;
+	margin-left:1%;
+	background-color: #E0E0EB;
+}
+
+.review{
+
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+.col-sm-8{
+
 }
