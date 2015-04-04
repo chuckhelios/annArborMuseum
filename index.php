@@ -100,5 +100,6 @@ include 'php/header.php';
 		</div>
 	</section>
 
+	<section>
 <?php  include 'php/footer.php'; 
 ?>

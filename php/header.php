@@ -86,7 +86,14 @@
       <?php 
       }
     ?>
-
+<!-- php for signup -->
+    <?php
+      if ($page == "signup"){
+    ?> 
+   	<link rel="stylesheet" type="text/css" href="css/signup2.css">
+      <?php 
+      }
+    ?>
  </head>
 
  <body id="page-top" class="index">
