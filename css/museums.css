@@ -9,23 +9,26 @@ header {
 	display: block;
 	width: 100%;
 	margin: 0.5rem;
+	border-radius: 3px;
+
 }
 
 .museumlink {
 	font-size: 2rem;
 	padding: 0rem 2rem 0rem 2rem;
+	text-decoration: none;
 }
 
 .museumtext {
-	padding: 0rem 2rem 0rem 2rem;
-	font-size: 2rem !important;
+	padding: 1em 2em 1em 2em;
+	font-size: 1em !important;
 	color: #393939;
+	vertical-align: center;
 }
 
 .museumbox {
 	display: block;
 	height: 100%;
-	border-radius: 3px;
 
 }
 

@@ -36,11 +36,13 @@ include 'php/header.php';
 			<div class="row">
 				<div class="col-md-4">
 					<!--Pictures-->
-					<img class="museumpic" src="img/cultural.jpg"/>
+					<a class="museumlink" href="http://www.aachmuseum.org/">
+						<img class="museumpic" src="img/cultural.jpg"/>
+					</a>
 				</div>
 				<div class="col-md-8">
 					<!--Descriptions-->
-					<h2>African American Cultural and Historical Museum</h2>
+					<h3>African American Cultural and Historical Museum</h3>
 					<div class="links">
 						<a class="museumlink" href="http://www.aachmuseum.org/">Museum Website</a> -
 						<span class="museumtext">0 Reviews</span>
@@ -52,7 +54,9 @@ include 'php/header.php';
 			<div class="row">
 				<div class="col-md-4">
 					<!--Pictures-->
-					<img class="museumpic" src="img/aahom.jpg"/>
+					<a class="museumlink" href="http://www.aachmuseum.org/">
+						<img class="museumpic" src="img/aahom.jpg"/>
+					</a>
 				</div>
 
 				<div class="col-md-8">
