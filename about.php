@@ -110,13 +110,13 @@ include 'php/header.php';
 					<div class="form-group">
 						<label class="col-xs-2 control-label">Name</label>
 						<div class="col-xs-10">
-							<input id="name" type="text" class="form-control" placeholder="Joe Doe" pattern="[a-zA-Z]+\s[a-zA-Z]+" data-validation-required-message="Please enter your name." required autofocus/>
+							<input id="name" type="text" class="form-control" placeholder="Joe Doe" pattern="[a-zA-Z]+\s[a-zA-Z]+" data-validation-required-message="Please enter your name." required/>
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="col-xs-2 control-label">Email</label>
 						<div class="col-xs-10">
-							<input id="email" type="email" class="form-control" placeholder="Joed@me.com" data-validation-required-message="Please enter your email." onblur="validateEmail(this)" required />
+							<input id="email" type="email" class="form-control" placeholder="Joed@me.com" data-validation-required-message="Please enter your email." onblur="validateEmail(this)" required/>
 						</div>
 					</div>
 					<div class="form-group">
