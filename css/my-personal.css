@@ -39,10 +39,73 @@ a.active {
 	border: 1px solid black;
 }
 
+/*Set image at center*/
+#about-us .aboutme-item .intro-myself li .about-photo{
+	margin: 0 auto; 
+	height: 17em;
+	width: 17em;
+	border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    color: #fff;
+    background-color: #fed136;
+}
 
+#about-us .intro-myself{
+	list-style: none;
+	margin-top: 2em;
+	text-align: center;
+	color: #646464;
+	font-size: 0.8em;
+}
 
+#about-us .aboutme-item .intro-myself .name{
+	font-weight: bold;
+	font-size: 1.7em;
+}
+#about-us .content-text{
+	height: 25em;
+	margin-top: 3em;
+}
 
+#about-us .about-item-head{
+	text-align: center;
+}
+#about-us .about-photo{
 
-@media only screen and (max-width: 991px) {
 
 }
+
+
+
+
+#map-container{
+	height: 26.5em;
+	opacity: 0.9;
+	border-radius: 3px;
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+
+#message{
+	height: 16em;
+}
+
+
+@media only screen and (max-width: 768px ) {
+
+	#about-us .aboutme-item .intro-myself li .about-photo{
+	margin: 0 auto; 
+	height: 30em;
+
+}
+}
+
+/*@media only screen and (min-width: 768px) {
+	
+
+
+}
+*/

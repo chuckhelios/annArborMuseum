@@ -2,30 +2,23 @@ nav{
 	border-color: #383836;
 	padding-top: 0.7em;
 	padding-bottom: 0.7em;
-}
-
-.navbar-default {
-    border-color: transparent;
-    background-color: #202020;
+	opacity: 0.95;
 }
 
 .page-scroll:hover{
-	color: #66bcec;
+	color: #ee8600;
 }
-
 .log-div{
 	float: left;
 }
-
 #logo-text{
 	text-align: left;
 	vertical-align: center;
 	font-family: 'Rock Salt', cursive;	
 	border-left: 1px solid #686868;
 	margin-left: 2em;
-	font-size: 1.4em;
+	font-size: 1.1em;
 	letter-spacing: 4px;
-	color: #edf8fe;
 }
 
 
@@ -37,61 +30,69 @@ nav{
 	position: absolute;
 }
 
-
-/*.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
-	color: #93d0f2;
-}*/
-
-
-.navbar-default .navbar-collapse {
-    border-color: #edf8fe;
+.current{
+	background-color:  #fecb15;
+	border-radius: 3px;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:active,
+.navbar-inverse .navbar-brand.active {
+	color: #fecb15;
 }
 
-.navbar-default .navbar-toggle {
-    border-color: #93d0f2;
-    background-color: #93d0f2;
+
+.navbar-inverse .navbar-nav>a {
+        border-radius: 3px;
+    }
+
+
+.navbar-inverse .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
 }
 
-.navbar-default .navbar-toggle .icon-bar {
+.navbar-inverse .navbar-toggle {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
     background-color: #fff;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: #93d0f2;
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #fed136;
 }
 
-.navbar-default .nav li a {
+.navbar-inverse .nav li a {
     text-transform: uppercase;
     font-weight: 400;
+    font-size: 0.9em;
     letter-spacing: 1px;
-    color: #edf8fe;
+    color: #fff;
+
 }
 
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
+.navbar-inverse .nav li a:hover,
+.navbar-inverse .nav li a:focus {
     outline: 0;
-    color: #93d0f2;
+    color: #fed136;
 }
 
-.navbar-default .navbar-nav>.active>a {
+/*.navbar-inverse .navbar-nav>a {
     border-radius: 0;
     color: #fff;
-    background-color: #93d0f2;
-}
+}*/
 
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
+/*.navbar-inverse .navbar-nav>a:hover,
+.navbar-inverse .navbar-nav>a:focus {
     color: #fff;
-    background-color: #93d0f2;
-}
+}*/
 
-.navbar-default .navbar-nav>.active>a {
+/* .navbar-inverse .navbar-nav>a {
         border-radius: 3px;
-}
+}*/
 
 
 
