@@ -32,15 +32,14 @@ include 'php/header.php';
 	<!--events section  -->
 	<section id="musuems">
 		<div class="container">
-
 			<div class="row">
-				<div class="col-md-4 museum-div">
+				<div class="col-sm-4 museum-div">
 					<!--Pictures-->
 					<a class="museumlink" href="http://www.aachmuseum.org/">
 						<img class="museumpic img-responsive" src="img/cultural.jpg"/>
 					</a>
 				</div>
-				<div class="col-md-8 museum-text-div">
+				<div class="col-sm-8 museum-text-div">
 					<!--Descriptions-->
 					<h3>African American Cultural and Historical Museum</h3>
 					<div class="links">
@@ -52,14 +51,14 @@ include 'php/header.php';
 			</div>
 
 			<div class="row">
-				<div class="col-md-4 museum-div">
+				<div class="col-sm-4 museum-div">
 					<!--Pictures-->
 					<a class="museumlink" href="http://www.aachmuseum.org/">
 						<img class="museumpic img-responsive" src="img/aahom.jpg"/>
 					</a>
 				</div>
 
-				<div class="col-md-8 museum-text-div">
+				<div class="col-sm-8 museum-text-div">
 					<!--Descriptions-->
 					<h3>Ann Arbor Hands-On Museum</h3>
 					<div class="links">
@@ -72,13 +71,13 @@ include 'php/header.php';
 
 
 			<div class="row">
-				<div class="col-md-4 museum-div">
+				<div class="col-sm-4 museum-div">
 					<!--Pictures-->
 					<a class="museumlink" href="http://www.aachmuseum.org/">
 						<img class="museumpic img-responsive" src="img/mainstreet.jpg"/>
 					</a>
 				</div>
-				<div class="col-md-8 museum-text-div">
+				<div class="col-sm-8 museum-text-div">
 					<!--Descriptions-->
 					<h3>Museum on Main Street</h3>
 					<div class="links">
@@ -90,13 +89,13 @@ include 'php/header.php';
 			</div>
 
 			<div class="row">
-				<div class="col-md-4 museum-div">
+				<div class="col-sm-4 museum-div">
 					<!--Pictures-->
 					<a class="museumlink" href="http://www.aachmuseum.org/">
 						<img class="museumpic img-responsive" src="img/nathist.jpg"/>
 					</a>
 				</div>
-				<div class="col-md-8 museum-text-div">
+				<div class="col-sm-8 museum-text-div">
 					<!--Descriptions-->
 					<h3>University of Michigan Natural History Museum</h3>
 					<div class="links">
@@ -108,13 +107,13 @@ include 'php/header.php';
 			</div>
 
 			<div class="row">
-				<div class="col-md-4 museum-div">
+				<div class="col-sm-4 museum-div">
 					<!--Pictures-->
 					<a class="museumlink" href="http://www.aachmuseum.org/">
 						<img class="museumpic img-responsive" src="img/umma.jpg"/>
 					</a>
 				</div>
-				<div class="col-md-8 museum-text-div">
+				<div class="col-sm-8 museum-text-div">
 					<!--Descriptions-->
 					<h3>University of Michigan Museum of Art</h3>
 					<div class="links">
@@ -126,13 +125,13 @@ include 'php/header.php';
 			</div>
 
 			<div class="row">
-				<div class="col-md-4 museum-div">
+				<div class="col-sm-4 museum-div">
 					<!--Pictures-->
 					<a class="museumlink" href="http://www.aachmuseum.org/">
 						<img class="museumpic img-responsive" src="img/kelsey.jpg"/>
 					</a>
 				</div>
-				<div class="col-md-8 museum-text-div">
+				<div class="col-sm-8 museum-text-div">
 					<!--Descriptions-->
 					<h3>Kelsey Museum of Archeology</h3>
 					<div class="links">
@@ -144,13 +143,13 @@ include 'php/header.php';
 			</div>
 
 			<div class="row">
-				<div class="col-md-4 museum-div">
+				<div class="col-sm-4 museum-div">
 					<!--Pictures-->
 					<a class="museumlink" href="http://www.aachmuseum.org/">
 						<img class="museumpic img-responsive" src="img/firehouse.jpg"/>
 					</a>
 				</div>
-				<div class="col-md-8 museum-text-div">
+				<div class="col-sm-8 museum-text-div">
 					<!--Descriptions-->
 					<h3>Michigan Firehouse Museum</h3>
 					<div class="links">
@@ -162,13 +161,13 @@ include 'php/header.php';
 			</div>
 
 			<div class="row">
-				<div class="col-md-4 museum-div">
+				<div class="col-sm-4 museum-div">
 					<!--Pictures-->
 					<a class="museumlink" href="http://www.aachmuseum.org/">
 						<img class="museumpic img-responsive" src="img/ypsi.jpg"/>
 					</a>
 				</div>
-				<div class="col-md-8 museum-text-div">
+				<div class="col-sm-8 museum-text-div">
 					<!--Descriptions-->
 					<h3>Ypsilanti Automotive Heritage Museum</h3>
 					<div class="links">

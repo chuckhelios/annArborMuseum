@@ -22,6 +22,7 @@ header {
 
 }
 
+
 /*.museum-div {
 	border-right: 1px dashed #f1f1f1;
 	height: 100%;
@@ -32,7 +33,7 @@ header {
 }*/
 
 .museumlink {
-	font-size: 2rem;
+	font-size: 1.6rem;
 	padding: 0rem 2rem 0rem 2rem;
 	text-decoration: none;
 }
@@ -56,4 +57,29 @@ header {
 
 p {
 	margin: 1rem;
+}
+
+@media only screen and (max-width: 992px ) {
+
+	#musuems .museum-div .museumpic{
+		height: 10em;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.museumtext{
+		font-size: 10px;
+	}
+
+}
+
+@media only screen and (max-width: 768px ) {
+	#musuems h3 {
+		text-align: center;
+	}
+
+	#musuems .museum-div .museumpic{
+		height: 20em;
+		width: 80%;
+		margin: 0 auto;
+	}
 }

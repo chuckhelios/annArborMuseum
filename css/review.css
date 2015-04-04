@@ -22,35 +22,46 @@ header {
 	display: block;
 	margin-bottom: 2%;
 	margin-top: 2%;
+	border-bottom: 1px dashed #f1f1f1;
+
 }
 
-.thumbnail{
-	vertical-align: middle;
-	padding: 1%;
+.userphoto{
+/*	padding: 1%;
 	margin-top: 10%;
-	margin-bottom: 1%;
-	display: block;
-	height: auto;
+	margin-bottom: 1%;*/
 
-
+	margin: 0 auto; 
+	height: 8em;
+	width: 8em;
+	border: 2px solid #f1f1f1;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #fed136;
 }
 
+.userid-div {
+	text-align: center;
+	vertical-align: center;
+	padding: 0.3em 0em 0.3em 0em;
+}
 
 .userid{
-	margin-left:8%;
-	font-weight: bold;
+/*	margin-left:8%;
+*/	font-weight: bold;
 	font-size: 125%;
+	text-align: center;
+	text-decoration: none;
+	margin: 0 auto;
 }
 
 h3{
-	margin-top: 2%;
 	padding: 1.5%;
 	margin-left:1%;
 	background-color: #E0E0EB;
 }
 
 .review{
-
 	margin-left: 1%;
 	margin-top: 1%;
 }

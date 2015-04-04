@@ -15,7 +15,6 @@ nav{
 	text-align: left;
 	vertical-align: center;
 	font-family: 'Rock Salt', cursive;	
-	border-left: 1px solid #686868;
 	margin-left: 2em;
 	font-size: 1.1em;
 	letter-spacing: 4px;
@@ -29,19 +28,19 @@ nav{
 	width: 6.2em;
 	height: 4.6em;
 	margin-top: -1.8em;
-	margin-left: -3.5em;
+	margin-left: -5%;
 	position: absolute;
 }
 
 .current{
-	background-color:  #fecb15;
+	background-color:  #4da6ff;
 	border-radius: 3px;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus,
 .navbar-inverse .navbar-brand:active,
 .navbar-inverse .navbar-brand.active {
-	color: #fecb15;
+	color: #4da6ff;
 }
 
 
@@ -55,8 +54,8 @@ nav{
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #4da6ff;
+    background-color: #4da6ff;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -65,7 +64,7 @@ nav{
 
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #4da6ff;
 }
 
 .navbar-inverse .nav li a {
@@ -80,9 +79,13 @@ nav{
 .navbar-inverse .nav li a:hover,
 .navbar-inverse .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #4da6ff;
 }
 
+#logo-img:hover,
+#logo-img:focus{
+	color: #4c4c4c;
+}
 /*.navbar-inverse .navbar-nav>a {
     border-radius: 0;
     color: #fff;
@@ -116,4 +119,8 @@ nav{
 	padding-bottom: 2em;
 }
 
-
+@media only screen and (max-width: 768px ) {
+	#logo-text{
+		display: none;
+	}
+}

@@ -41,10 +41,10 @@ include 'php/header.php';
 			<div class="row">
 				<div class="col-sm-1"></div>
 				<div class="col-sm-2">
-					<img class="thumbnail" src="img/profile1.jpg" width="125px" alt= "Alex's userpic">
-
-					<strong><a class="userid" href="">Alex</a></strong>
-
+					<img class="userphoto img-responsive" src="img/profile1.jpg" alt= "Alex's userpic">
+					<div class="userid-div">
+						<strong><a class="userid" href="">Alex</a></strong>
+					</div>
 				</div>
 
 				<div class="col-sm-1"></div>
@@ -60,8 +60,10 @@ include 'php/header.php';
 			<div class="row">
 				<div class="col-sm-1"></div>
 				<div class="col-sm-2">
-					<img class="thumbnail" src="img/profile2.jpg" width="125px" alt= "Fred's userpic">
-					<strong><a class="userid" href="">Fred</a></strong>
+					<img class="userphoto img-responsive" src="img/profile2.jpg" alt= "Fred's userpic">
+					<div class="userid-div">
+						<strong><a class="userid" href="">Fred</a></strong>
+					</div>
 				</div>
 
 				<div class="col-sm-1"></div>
@@ -77,8 +79,10 @@ include 'php/header.php';
 			<div class="row">
 				<div class="col-sm-1"></div>
 				<div class="col-sm-2">
-					<img class="thumbnail" src="img/profile3.jpg" width="125px" alt= "Peter Quill's userpic">
+					<img class="userphoto img-responsive" src="img/profile3.jpg" alt= "Peter Quill's userpic">
+					<div class="userid-div">
 					<strong><a class="userid" href="">Starlord</a></strong>
+					</div>
 				</div>
 
 				<div class="col-sm-1"></div>
