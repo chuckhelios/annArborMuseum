@@ -52,7 +52,26 @@
    		<!-- social media css -->
    <link rel="stylesheet" type="text/css" href="./css/social-media.css">
    	<!--  -->
-   	
+ <!-- php for home -->
+    <?php
+    // Only for Google Map on Contact page
+      if ($page == "home"){
+    ?>   	
+   	<link rel="stylesheet" type="text/css" href="css/index.css">
+    <?php 
+      }
+    ?>
+
+   	<!-- Events css -->
+ <!-- php for museum -->
+    <?php
+    // Only for Google Map on Contact page
+      if ($page == "museum"){
+    ?>  
+   	<link rel="stylesheet" type="text/css" href="css/museums.css">
+     <?php 
+      }
+    ?>
 
  </head>
 
@@ -63,7 +82,7 @@
 			<!-- Brand -->
 			<div class="logo-div">
 				<a class="navbar-brand page-scroll" href="#page-top">
-					<img id="logo-img" src="" alt="logo"/>
+					<img id="logo-img" src="img/logo.png" alt="logo"/>
 				</a>
 				<a class="navbar-brand page-scroll" id="logo-text" href="#page-top">A2 Musuem</a>
 			</div>
@@ -96,7 +115,7 @@
 			                echo " current";
 			              }
 			             ?>" 
-						href="#museum">Museum</a>
+						href="museums.php">Museum</a>
 					</li>
 					<li>
 			            <a class="page-scroll <?php
