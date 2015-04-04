@@ -5,13 +5,31 @@ header {
 }
 
 
+#musuems .container .row {
+	border-bottom: 1px dashed #f1f1f1;
+
+}
+
 .museumpic {
 	display: block;
 	width: 100%;
-	margin: 0.5rem;
 	border-radius: 3px;
+	height: 10em;
+	vertical-align: center;
+	text-align: center;
+
+
 
 }
+
+/*.museum-div {
+	border-right: 1px dashed #f1f1f1;
+	height: 100%;
+}
+
+.museum-text-div{
+	border-bottom: 1px dashed #f1f1f1;
+}*/
 
 .museumlink {
 	font-size: 2rem;
@@ -21,7 +39,7 @@ header {
 
 .museumtext {
 	padding: 1em 2em 1em 2em;
-	font-size: 1em !important;
+	font-size: 0.8em !important;
 	color: #393939;
 	vertical-align: center;
 }
@@ -29,7 +47,6 @@ header {
 .museumbox {
 	display: block;
 	height: 100%;
-
 }
 
 .links {
