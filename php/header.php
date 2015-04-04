@@ -30,7 +30,6 @@
 
  <!-- php for contact -->
     <?php
-    // Only for Google Map on Contact page
       if ($page == "about"){
     ?>
         <!-- Google Map API -->
@@ -54,7 +53,6 @@
    	<!--  -->
  <!-- php for home -->
     <?php
-    // Only for Google Map on Contact page
       if ($page == "home"){
     ?>   	
    	<link rel="stylesheet" type="text/css" href="css/index.css">
@@ -62,10 +60,17 @@
       }
     ?>
 
-   	<!-- Events css -->
+    <!-- php for event -->
+    <?php
+      if ($page == "event"){
+    ?> 
+   	<link rel="stylesheet" type="text/css" href="css/events.css">
+    <?php 
+      }
+    ?>
+
  <!-- php for museum -->
     <?php
-    // Only for Google Map on Contact page
       if ($page == "museum"){
     ?>  
    	<link rel="stylesheet" type="text/css" href="css/museums.css">
@@ -123,7 +128,7 @@
 			                echo " current";
 			              }
 			             ?>" 
-						href="#event">Event</a>
+						href="events.php">Event</a>
 					</li>
 					<li>
 			            <a class="page-scroll <?php
