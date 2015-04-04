@@ -78,6 +78,15 @@
       }
     ?>
 
+<!-- php for review -->
+    <?php
+      if ($page == "review"){
+    ?> 
+   	<link rel="stylesheet" type="text/css" href="css/review.css">
+      <?php 
+      }
+    ?>
+
  </head>
 
  <body id="page-top" class="index">
