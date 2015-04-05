@@ -65,6 +65,8 @@ include 'php/header.php';
 				<div class="col-md-8"></div>
 				<div class="col-md-4" id="signup-div">
 					<a href="signup.php" id="signup-link">SIGN UP</a>
+					<p id="signup-p">To make an account or receive our newsletter.</p>
+
 				</div>
 			</div>
 
@@ -102,7 +104,9 @@ include 'php/header.php';
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4"><h1>Donate</h1><p>A2 museum actively supports other non-profit groups through donations of tickets to qualified organizations for fundraising. Because of the number of requests for donations, we are not able to honor every request. Please look at our guidelines to determine if your organization is eligible, and note the instructions on how to request donations.</p></div>
+				<div class="col-md-4">
+					<h1>Donate</h1><p>A2 museum actively supports other non-profit groups through donations of tickets to qualified organizations for fundraising. Because of the number of requests for donations, we are not able to honor every request. Please look at our guidelines to determine if your organization is eligible, and note the instructions on how to request donations.</p>
+				</div>
 			</div>
 		</div>
 	</section>
