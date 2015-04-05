@@ -2,8 +2,16 @@ header {
 	background-image: url("../img/artmuseum1.jpg");
 	color: #FFFFFF;
 	text-shadow: 2px 2px 8px #37373F;
+	padding-bottom: 8%;
 }
 
+	h1.header_text{
+		font-size: 160%;
+	}
+
+	h2.header_text{
+		font-size: 200%;
+	}
 
 #musuems .container .row {
 	border-bottom: 1px dashed #f1f1f1;
@@ -82,4 +90,15 @@ p {
 		width: 80%;
 		margin: 0 auto;
 	}
+}
+
+@media only screen and (min-width: 460px) {
+	h2.header_text{
+		font-size: 360%;
+	}
+
+	h1.header_text{
+		font-size: 250%;
+	}
+	
 }

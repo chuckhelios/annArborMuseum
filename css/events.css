@@ -2,7 +2,16 @@ header {
 	background-image: url("../img/artmuseum1.jpg");
 	color: #FFFFFF;
 	text-shadow: 2px 2px 8px #37373F;
+	padding-bottom: 8%;
 }
+
+	h1.header_text{
+		font-size: 160%;
+	}
+
+	h2.header_text{
+		font-size: 200%;
+	}
 
 tbody {
 	display: block;
@@ -23,4 +32,15 @@ th strong {
 #events {
 	padding: 2em;
 	margin-left: 1em;
+}
+
+@media only screen and (min-width: 460px) {
+	h2.header_text{
+		font-size: 360%;
+	}
+
+	h1.header_text{
+		font-size: 250%;
+	}
+	
 }

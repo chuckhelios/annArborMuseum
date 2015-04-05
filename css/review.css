@@ -4,16 +4,15 @@ header {
 		background-image: url("../img/artmuseum1.jpg");
 		color: #FFFFFF;
 		text-shadow: 2px 2px 8px #37373F;
-		padding-bottom: 9%;
-
-	}
+		padding-bottom: 8%;
+}
 
 	h1.header_text{
-		font-size: 120%;
+		font-size: 160%;
 	}
 
 	h2.header_text{
-		font-size: 170%;
+		font-size: 200%;
 	}
 
 
@@ -56,6 +55,7 @@ header {
 }
 
 h3{
+	margin:0;
 	padding: 1.5%;
 	margin-left:1%;
 	background-color: #E0E0EB;
@@ -68,11 +68,11 @@ h3{
 
 @media only screen and (min-width: 460px) {
 	h2.header_text{
-		font-size: 260%;
+		font-size: 360%;
 	}
 
 	h1.header_text{
-		font-size: 200%;
+		font-size: 250%;
 	}
 	
 }

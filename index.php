@@ -16,7 +16,7 @@ include 'php/header.php';
     
     
 
-	<!--photo gallary  -->
+	<!--photo gallery  -->
 	<section id="photo-gallary-sec">
 			<div class="row">
     			    <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -34,7 +34,7 @@ include 'php/header.php';
     							<img src="image/2.jpg" alt="Flower">
     							<div class="container">
     								<div class="carousel-caption">
-                  						<h3 class="titles">Univeristy of Michigan Museum of Art</h3>
+                  						<h3 class="titles">University of Michigan Museum of Art</h3>
                   						<p class="contents">The University of Michigan Museum of Art seeks to transform individual and civic life by promoting the discovery, contemplation, and enjoyment of the art of our world. </p>
                 					</div>
 
@@ -57,11 +57,18 @@ include 'php/header.php';
 	
 		</div>
 	</section>
-	<!--end of photo gallary  -->
+	<!--end of photo gallery  -->
 
 	<section id="mycontent">
 		<div class="container">
-			<div calss="row">
+			<div class="row">
+				<div class="col-md-8"></div>
+				<div class="col-md-4" id="signup-div">
+					<a href="signup.php" id="signup-link">SIGN UP</a>
+				</div>
+			</div>
+
+			<div class="row">
 				<div class="col-md-4"><h1>Welcome</h1><p>This website displays a collection of Ann Arbor local museums. For now on, we have Ann Arbor Hands-On Museum,Univeristy of Michigan Museum of Art, and The Michigan Firehouse Museum and Education Center. This website does good for new comers to know what kind of museum experience they could get at Ann Arbor.</p></div>
 				<div class="col-md-4">
 					<h1>Events</h1>

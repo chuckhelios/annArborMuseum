@@ -1,26 +1,21 @@
-body {
-	background-color: #981A1A;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	color: white;
-}
-
-header {
-	background-image: url("../img/lsd.png");
-}
-
-.btn {
-	background-color: black;
-}
-
-.btn:hover {
-	background-color: yellow;
-	color: black;
-}
-
-input:focus {
-	background-color: yellow;
-}
-
 legend{
-	margin: 2%;
+	padding: 2%;
+}
+
+
+#myCheck{
+	margin-bottom: 4%;
+}
+
+h2{
+	padding-bottom: 2%;
+}
+
+p{
+	text-align: center;
+	padding-left: 2%;
+}
+
+#mySignUp{
+	display: none;
 }

@@ -18,12 +18,12 @@ include 'php/header.php';
 			<div class="row">
 				<div class="col-lg-12 intro-text">
 					<div class="intro-lead-in">
-						<h2>Ann Arbor Museums</h2>
+						<h1 class="header_text">Ann Arbor Museums</h1>
 					</div>
 					<div class="intro-heading">
-						<h1>Museums</h1>
+						<h2 class="header_text">Museums</h2>
 					</div>
-					<br><br><br><br><br><br><br><br><br>
+					<br>
 
 				</div>
 			</div>
