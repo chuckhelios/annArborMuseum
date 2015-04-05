@@ -71,7 +71,7 @@ include 'php/header.php';
 			</div>
 
 			<div class="row">
-				<div class="col-md-4"><h1>Welcome</h1><p>This website displays a collection of Ann Arbor local museums. For now on, we have Ann Arbor Hands-On Museum,Univeristy of Michigan Museum of Art, and The Michigan Firehouse Museum and Education Center. This website does good for new comers to know what kind of museum experience they could get at Ann Arbor.</p></div>
+				<div class="col-md-4"><h1>Welcome</h1><p>This website displays a collection of Ann Arbor local museums. For now, we have the Ann Arbor Hands-On Museum, Univeristy of Michigan Museum of Art, and The Michigan Firehouse Museum and Education Center. This website is for newcomers to the area to see what kind of museum experience they could get in Ann Arbor.</p></div>
 				<div class="col-md-4">
 					<h1>Events</h1>
 					<div class="aEvent">
