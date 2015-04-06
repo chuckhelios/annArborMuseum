@@ -17,7 +17,7 @@ include 'php/header.php';
 			<div class="row">
 				<div class="col-lg-12 intro-text">
 					<div class="intro-lead-in">
-						<h1 class="header_text">Ann Arbor Museums</h1>
+						<h1 class="header_text">Ann Arbor Museum</h1>
 					</div>
 					<div class="intro-heading">
 						<h2 class="header_text">Events</h2>

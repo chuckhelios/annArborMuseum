@@ -136,7 +136,7 @@
 			                echo " current";
 			              }
 			             ?>" 
-						href="museums.php">Museum</a>
+						href="museums.php">Museums</a>
 					</li>
 					<li>
 			            <a class="page-scroll <?php
@@ -144,7 +144,7 @@
 			                echo " current";
 			              }
 			             ?>" 
-						href="events.php">Event</a>
+						href="events.php">Events</a>
 					</li>
 					<li>
 			            <a class="page-scroll <?php
