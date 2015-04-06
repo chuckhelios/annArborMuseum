@@ -10,8 +10,6 @@ $metaD = "Welcome to museum page";
 
 include 'php/header.php';
 ?>
-
- </head>
 	<!-- Header -->
 	<header>
 		<div class="container">
