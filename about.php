@@ -77,7 +77,7 @@ include 'php/header.php';
 						<h3>Why we are interested in A2 Museums?</h3>
 					</div>
 					<div class="about-item-text">
-						<p>Musem in Ann Arbor is awsome! We want to inspire people to discover the wonder of science, technology, engineering, art, and math. We aim to provide you more conclusive information of these anwsome museums</p>
+						<p>The museums in Ann Arbor are awesome! We want to inspire people to discover the wonders of science, technology, engineering, art, and math. We aim to provide you helpful information about these anwsome museums</p>
 					</div>
 				</div>
 				<div class="col-sm-6">
@@ -85,7 +85,7 @@ include 'php/header.php';
 						<h3>Want to support us?</h3>
 					</div>
 					<div class="about-item-text">
-						<p>Find us in social network below. If you like our website, please contact by all means and told us you like it.</p>
+						<p>Find us in social network below. If you like our website, please contact us and tell us what you like and any ways we can improve the site.</p>
 					</div>
 				</div>				
 			</div>
