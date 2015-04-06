@@ -10,8 +10,6 @@ $metaD = "Welcome to museum page";
 
 include 'php/header.php';
 ?>
-
- </head>
 	<!-- Header -->
 	<header>
 		<div class="container">
@@ -36,7 +34,7 @@ include 'php/header.php';
 				<div class="col-sm-4 museum-div">
 					<!--Pictures-->
 					<a class="museumlink" href="http://www.aachmuseum.org/">
-						<img class="museumpic img-responsive" src="img/cultural.jpg"/>
+						<img class="museumpic img-responsive" alt="African American Cultural and Historical Museum" src="img/cultural.jpg"/>
 					</a>
 				</div>
 				<div class="col-sm-8 museum-text-div">
@@ -53,8 +51,8 @@ include 'php/header.php';
 			<div class="row">
 				<div class="col-sm-4 museum-div">
 					<!--Pictures-->
-					<a class="museumlink" href="http://www.aachmuseum.org/">
-						<img class="museumpic img-responsive" src="img/aahom.jpg"/>
+					<a class="museumlink" href="http://www.aahom.org">
+						<img class="museumpic img-responsive" alt="Ann Arbor Hands-On Museum" src="img/aahom.jpg"/>
 					</a>
 				</div>
 
@@ -73,8 +71,8 @@ include 'php/header.php';
 			<div class="row">
 				<div class="col-sm-4 museum-div">
 					<!--Pictures-->
-					<a class="museumlink" href="http://www.aachmuseum.org/">
-						<img class="museumpic img-responsive" src="img/mainstreet.jpg"/>
+					<a class="museumlink" href="http://washtenawhistory.org/">
+						<img class="museumpic img-responsive" alt="Museum on Main Street" src="img/mainstreet.jpg"/>
 					</a>
 				</div>
 				<div class="col-sm-8 museum-text-div">
@@ -91,8 +89,8 @@ include 'php/header.php';
 			<div class="row">
 				<div class="col-sm-4 museum-div">
 					<!--Pictures-->
-					<a class="museumlink" href="http://www.aachmuseum.org/">
-						<img class="museumpic img-responsive" src="img/nathist.jpg"/>
+					<a class="museumlink" href="http://www.lsa.umich.edu/ummnh/">
+						<img class="museumpic img-responsive" alt="Museum of Natural History" src="img/nathist.jpg"/>
 					</a>
 				</div>
 				<div class="col-sm-8 museum-text-div">
@@ -109,8 +107,8 @@ include 'php/header.php';
 			<div class="row">
 				<div class="col-sm-4 museum-div">
 					<!--Pictures-->
-					<a class="museumlink" href="http://www.aachmuseum.org/">
-						<img class="museumpic img-responsive" src="img/umma.jpg"/>
+					<a class="museumlink" href="http://www.umma.umich.edu">
+						<img class="museumpic img-responsive" alt="University of Michigan Museum of Art" src="img/umma.jpg"/>
 					</a>
 				</div>
 				<div class="col-sm-8 museum-text-div">
@@ -127,8 +125,8 @@ include 'php/header.php';
 			<div class="row">
 				<div class="col-sm-4 museum-div">
 					<!--Pictures-->
-					<a class="museumlink" href="http://www.aachmuseum.org/">
-						<img class="museumpic img-responsive" src="img/kelsey.jpg"/>
+					<a class="museumlink" href="https://www.lsa.umich.edu/kelsey/">
+						<img class="museumpic img-responsive" alt="Kelsey Museum of Archeology" src="img/kelsey.jpg"/>
 					</a>
 				</div>
 				<div class="col-sm-8 museum-text-div">
@@ -145,8 +143,8 @@ include 'php/header.php';
 			<div class="row">
 				<div class="col-sm-4 museum-div">
 					<!--Pictures-->
-					<a class="museumlink" href="http://www.aachmuseum.org/">
-						<img class="museumpic img-responsive" src="img/firehouse.jpg"/>
+					<a class="museumlink" href="http://michiganfirehousemuseum.org/">
+						<img class="museumpic img-responsive" alt="Michigan Firehouse Museum" src="img/firehouse.jpg"/>
 					</a>
 				</div>
 				<div class="col-sm-8 museum-text-div">
@@ -163,8 +161,8 @@ include 'php/header.php';
 			<div class="row">
 				<div class="col-sm-4 museum-div">
 					<!--Pictures-->
-					<a class="museumlink" href="http://www.aachmuseum.org/">
-						<img class="museumpic img-responsive" src="img/ypsi.jpg"/>
+					<a class="museumlink" href="http://ypsiautoheritage.org/">
+						<img class="museumpic img-responsive" alt="Ypsilanti Automotive Heritage Museum" src="img/ypsi.jpg"/>
 					</a>
 				</div>
 				<div class="col-sm-8 museum-text-div">
