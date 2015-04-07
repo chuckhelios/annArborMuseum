@@ -206,7 +206,7 @@ include 'php/header.php';
 						<div class="form-group">
 							<div class="col-sm-offset-2 col-sm-10">
 								<button type="submit" class="btn btn-primary">Submit</button>
-								<button type="button" class="btn btn-primary">Cancel</button>
+								<button type="button" class="btn btn-primary" onclick="location.href='index.php'">Cancel</button>
 							</div>
 						</div>						
 					</div>

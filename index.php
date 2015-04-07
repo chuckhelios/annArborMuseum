@@ -11,7 +11,7 @@ $metaD = "Welcome to home page";
 include 'php/header.php';
 
 ?>
- </head>
+
 
     
     
@@ -111,6 +111,6 @@ include 'php/header.php';
 		</div>
 	</section>
 
-	<section>
+
 <?php  include 'php/footer.php'; 
 ?>
