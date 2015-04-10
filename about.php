@@ -106,7 +106,7 @@ include 'php/header.php';
 	<div class="row">
 		<div class="col-lg-12 contact-item">
 			<form id="contact_form" name="sentMessage" method="get" class="form-horizontal">
-				<fieldset>
+			
 				<div class="col-md-6">
 					<div class="form-group">
 						<label class="col-xs-2 control-label">Name</label>
@@ -132,7 +132,7 @@ include 'php/header.php';
 						</div>
 					</div>
 				</div>
-			</fieldset>
+			
 			</form>
 			<!-- Google map container -->
 			<div class="col-md-6">
