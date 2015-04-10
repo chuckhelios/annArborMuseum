@@ -90,7 +90,7 @@
     <?php
       if ($page == "signup"){
     ?> 
-   	<link rel="stylesheet" type="text/css" href="css/signup2.css">
+   	<link rel="stylesheet" type="text/css" href="css/signup.css">
       <?php 
       }
     ?>

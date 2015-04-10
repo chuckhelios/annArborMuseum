@@ -18,7 +18,7 @@ include 'php/header.php';
 			<div class="row">
 				<div class="col-lg-12 intro-text">
 					<div class="intro-lead-in">
-						<h2>Sign Up Options</h2>
+						<h1>Sign Up Options</h1>
 					</div>
 
 				</div>
@@ -170,7 +170,7 @@ include 'php/header.php';
 						</div>
 						<div class="form-group">
 							<div class="col-sm-9 col-sm-offset-3">
-								<input type="text" id="address2" class="form-control" name="address2" placeholder="Address Line 2"/>
+								<input type="text" id="address2" name="address2" class="form-control" name="address2" placeholder="Address Line 2"/>
 							</div>
 						</div>	
 						<div class="form-group">

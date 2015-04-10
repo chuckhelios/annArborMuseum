@@ -109,19 +109,19 @@ include 'php/header.php';
 			
 				<div class="col-md-6">
 					<div class="form-group">
-						<label class="col-xs-2 control-label">Name</label>
+						<label for="name" class="col-xs-2 control-label">Name</label>
 						<div class="col-xs-10">
 							<input id="name" type="text" class="form-control" name="name" placeholder="Joe Doe" pattern="[a-zA-Z]+\s[a-zA-Z]+" data-validation-required-message="Please enter your name." required/>
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-xs-2 control-label">Email</label>
+						<label for="email" class="col-xs-2 control-label">Email</label>
 						<div class="col-xs-10">
 							<input id="email" type="email" class="form-control" name="email" placeholder="Joed@me.com" data-validation-required-message="Please enter your email." onblur="validateEmail(this)" required/>
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-xs-2 control-label">Message</label>
+						<label for="message" class="col-xs-2 control-label">Message</label>
 						<div class="col-xs-10">
 							<textarea id="message" class="form-control" name="message" placeholder="Your message here" data-validation-reuqired-message="Please enter your message." required></textarea>	
 						</div>
