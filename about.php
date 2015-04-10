@@ -106,23 +106,24 @@ include 'php/header.php';
 	<div class="row">
 		<div class="col-lg-12 contact-item">
 			<form id="contact_form" name="sentMessage" method="get" class="form-horizontal">
+				<fieldset>
 				<div class="col-md-6">
 					<div class="form-group">
 						<label class="col-xs-2 control-label">Name</label>
 						<div class="col-xs-10">
-							<input id="name" type="text" class="form-control" placeholder="Joe Doe" pattern="[a-zA-Z]+\s[a-zA-Z]+" data-validation-required-message="Please enter your name." required/>
+							<input id="name" type="text" class="form-control" name="name" placeholder="Joe Doe" pattern="[a-zA-Z]+\s[a-zA-Z]+" data-validation-required-message="Please enter your name." required/>
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="col-xs-2 control-label">Email</label>
 						<div class="col-xs-10">
-							<input id="email" type="email" class="form-control" placeholder="Joed@me.com" data-validation-required-message="Please enter your email." onblur="validateEmail(this)" required/>
+							<input id="email" type="email" class="form-control" name="email" placeholder="Joed@me.com" data-validation-required-message="Please enter your email." onblur="validateEmail(this)" required/>
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="col-xs-2 control-label">Message</label>
 						<div class="col-xs-10">
-							<textarea id="message" class="form-control" placeholder="Your message here" data-validation-reuqired-message="Please enter your message." required></textarea>	
+							<textarea id="message" class="form-control" name="message" placeholder="Your message here" data-validation-reuqired-message="Please enter your message." required></textarea>	
 						</div>
 					</div>
 					<div class="form-group">
@@ -131,6 +132,7 @@ include 'php/header.php';
 						</div>
 					</div>
 				</div>
+			</fieldset>
 			</form>
 			<!-- Google map container -->
 			<div class="col-md-6">

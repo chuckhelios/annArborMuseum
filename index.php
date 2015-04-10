@@ -22,8 +22,8 @@ include 'php/header.php';
     			    <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Carousel items -->
   						<div class="carousel-inner">
-   			 				<div class="active item">
-   			 					<img src="image/1.png" alt="Flower" >
+   			 				<div class="item">
+   			 					<img src="image/5.jpg" alt="Hands-On Museum" >
    			 						<div class="carousel-caption">
                   						<h3 class="titles">Ann Arbor Hands-On Museum</h3>
                   						<p class="contents">The Mission of the Ann Arbor Hands-On Museum is to inspire people to discover the wonder of science, technology, engineering, art, and math. </p>
@@ -31,7 +31,7 @@ include 'php/header.php';
    			 				
    			 				</div>
     						<div class="item">
-    							<img src="image/2.jpg" alt="Flower">
+    							<img src="image/1.png" alt="UMMA">
     							<div class="container">
     								<div class="carousel-caption">
                   						<h3 class="titles">University of Michigan Museum of Art</h3>
@@ -40,8 +40,8 @@ include 'php/header.php';
 
    			 					</div>
     						</div>
-    						<div class="item">
-    							<img src="image/5.jpg" alt="Flower">
+    						<div class="active item">
+    							<img src="image/2.jpg" alt="Firehouse Museum">
     							<div class="container">
     								<div class="carousel-caption">
                   						<h3 class="titles">The Michigan Firehouse Museum and Education Center</h3>

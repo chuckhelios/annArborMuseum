@@ -103,7 +103,7 @@
 			<!-- Brand -->
 			<div class="logo-div">
 				<a class="navbar-brand page-scroll" href="#page-top">
-					<img id="logo-img" src="img/logo.png" alt="logo"/>
+					<img id="logo-img" src="img/logo.png" alt="A2 Museum's logo"/>
 				</a>
 				<a class="navbar-brand page-scroll" id="logo-text" href="#page-top">A2 Musuem</a>
 			</div>

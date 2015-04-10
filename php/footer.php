@@ -5,12 +5,12 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div id="social-media-item">
-						<a target="_blank" href=""><i class="fa fa-facebook-square fa-4x social social-fb"></i></a>
-						<a target="_blank" href=""><i class="fa fa-twitter-square fa-4x social social-tw"></i></a>
-						<a target="_blank" href=""><i class="fa fa-google-plus-square fa-4x social social-gp"></i></a>
-						<a target="_blank" href=""><i class="fa fa-instagram fa-4x social social-ins"></i></a>
-						<a target="_blank" href=""><i class="fa fa-weibo fa-4x social social-wb"></i></a>
-						<a target="_blank" href="mailto:"><i class="fa fa-envelope-square fa-4x social social-em"></i></a>
+						<a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook-square fa-4x social social-fb"></i></a>
+						<a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter-square fa-4x social social-tw"></i></a>
+						<a target="_blank" href="https://plus.google.com/"><i class="fa fa-google-plus-square fa-4x social social-gp"></i></a>
+						<a target="_blank" href="https://instagram.com/"><i class="fa fa-instagram fa-4x social social-ins"></i></a>
+						<a target="_blank" href="http://us.weibo.com/gb"><i class="fa fa-weibo fa-4x social social-wb"></i></a>
+						<a target="_blank" href="https://foursquare.com/"><i class="fa fa-envelope-square fa-4x social social-em"></i></a>
 
 					</div>
 				</div>

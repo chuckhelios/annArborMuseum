@@ -53,7 +53,7 @@ include 'php/header.php';
 			</tr>
 					
 			<tr>
-				<td><strong><a href="http://aahom.org/">Ann Arbor Hands-On Museum</a></strong></td>
+				<td><strong><a href="http://aahom.org/experience/event-calendar">Ann Arbor Hands-On Museum</a></strong></td>
 				<td>
 					<strong>3D Printing: The Science of Additive Manufacturing</strong>
 					<br>
@@ -194,7 +194,7 @@ include 'php/header.php';
 			</tr>
 
 			<tr>
-				<td><strong><a href="http://aachmuseum.org/">African American Cultural and Historical Museum</a></strong></td>
+				<td><strong><a href="http://aachmuseum.org/page21/index.html">African American Cultural and Historical Museum</a></strong></td>
 				<td>
 					<strong>Journey to Freedom: Underground Railroad Bus Tour</strong>
 					<br>

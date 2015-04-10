@@ -31,7 +31,7 @@ include 'php/header.php';
 	</header>
 
 	<!--review section  -->
-	
+	<section> 
 		<!-- Lauren Day -->
 		<div class="container review_row">
 			<div class="row">
