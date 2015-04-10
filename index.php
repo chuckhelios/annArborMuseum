@@ -64,8 +64,8 @@ include 'php/header.php';
 			<div class="row">
 				<div class="col-md-8"></div>
 				<div class="col-md-4" id="signup-div">
-					<a href="signup.php" type="button" class="btn btn-md btn-primary">SIGN UP</a>
-					<p id="signup-p">To make an account or receive our newsletter.</p>
+					<a href="signup.php" id="signup-link" class="btn btn-md btn-primary">SIGN UP</a>
+					<p id="signup-p">Please sign up to leave reviews or receive our newsletter.</p>
 
 				</div>
 			</div>

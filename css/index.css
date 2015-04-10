@@ -119,17 +119,12 @@ h1{
 }
 
 #signup-div{
-  margin-bottom: 1em;
+  margin-bottom: .5em;
   padding-bottom: 0;
 }
 
 #signup-link{
-  display: inline-block;
-  font-size: 120%;
-  background-color: #4da6ff;
-  color: black;
-  padding: .5em .9em;
-  margin: 0em 0em .4em 0em;
-  border-radius: 3px;
+  margin: 0em 0em .5em 0em;
+
 }
 
