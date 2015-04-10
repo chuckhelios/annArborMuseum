@@ -17,7 +17,7 @@ include 'php/header.php';
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<h2 class="section-heading">About Us</h2>
+					<h1 class="section-heading">About Us</h1>
 				</div>
 			</div>
 			<hr class="soften hr-rule"/>			

@@ -26,7 +26,8 @@
     <link rel="stylesheet" type="text/css" href="./css/bootstrap-select.min.css">
  
     <!-- Google Font CSS-->
-	<link href='http://fonts.googleapis.com/css?family=Armata|Shadows+Into+Light|Gloria+Hallelujah|Raleway|Rock+Salt' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
 
  <!-- php for contact -->
     <?php
