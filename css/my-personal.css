@@ -40,8 +40,8 @@ a.active {
 /*Set image at center*/
 #about-us .aboutme-item .intro-myself li .about-photo{
 	margin: 0 auto; 
-	height: 17em;
-	width: 17em;
+	height: 16em;
+	width: 16em;
 	border: 7px solid #f1f1f1;
     border-radius: 100%;
     color: #fff;
@@ -96,7 +96,6 @@ a.active {
 
 	#about-us .aboutme-item .intro-myself li .about-photo{
 	margin: 0 auto; 
-	height: 30em;
 
 	}
 }

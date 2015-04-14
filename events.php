@@ -31,9 +31,11 @@ include 'php/header.php';
 
 	<!--events section  -->
 	<section id="events">
+	<div class="container">
+	<div class="row">
 		<p>In Ann Arbor, there's never any need to be bored! Here are a few examples of events that museums here are sponsoring this winter.</p>
-	</section>
-	
+	</div>
+	<div class="row">
 	<table class="table table-striped">
 		<tbody>
 			<tr>
@@ -215,6 +217,10 @@ include 'php/header.php';
 
 			</tbody>
 		</table>
+		</div>	
+	</div>
+	</section>
+
 	<!--end of events section  -->
 
 
